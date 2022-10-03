@@ -4,10 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dimas</title>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+
+        }
+    </style>
 </head>
 <body>
-    <p>Dimas calvo aaaaaaa</p>
-    <p>tus muertos</p>
+
+
+<table style="width: 500px;">
+
+    <thead>
+    <tr> <!-- Esto es una fila -->
+        
+        <th>Producto</th>
+        <th>Precio</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+    
+        <tr>
+            <td>Dimas</td>
+            <td>19,90€</td>
+        </tr>
+    
+        <tr>
+            <td>Dimas calvo</td>
+            <td>8000,90€</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td></td>
+        <td>Total: 8021€</td>
+    </tfoot>
+    
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<ul> 
+    <!-- ul es lista no ordenada-->
+
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+
+</ul>
+
+
+<ol> 
+    <!-- ol es lista ordenada-->
+
+    <li value="50">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>
+        <ol>
+            <li style="list-style-type:lower-roman;">sub elemento 1</li>
+            <li style="list-style-type:lower-roman;">sub elemento 2</li>
+            <li style="list-style-type:lower-roman;">sub elemento 3</li>
+        </ol>
+    </li>
+
+</ol>
+
+
+
+
+
+
+
+
+
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>No se que poner parrafo</p>
+    <p>No se que poner parrafo 2</p>
+    <hr> <!--Esto es un comentario y "hr" sirve para poner una barra-->
+    <p>este texto es <span style="color:blue">mucho mas largo</span>
+         y es para mostrar <br>
+        la etiqueta span!
+    </p>
+
+    <a target="_blank" href="https://www.google.es">Ir a google</a> <!--La propiedad "target="_blank"" de la etiqueda "a" hace que se pueda abrir la pagina en una nueva pestaña -->
+    
+    <img src="img/si.png" alt="mis amigos crack" width="400" height="400">
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="chanchito" id="nombre" name="nombre" placeholder="Tu Nombre" type="text">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="feliz" id="apellido" name="apellido" placeholder="Tu Apellido" type="text">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" placeholder="ingrese comentario" cols="30" rows="10">Baru da asco</textarea>
+        <br>
+        <button type="submit">Tipo submit</button>
+        <button type="button"><img src="img/si.png" width="50" alt=""> button</button>
+        <button type="reset">Tipo reset</button>
+        <button type="menu">Tipo menu</button>
+        <br><br><br><br>
+        <input type="email">
+        <br>
+        <input type="radio">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="password">
+        <br>
+        <input type="checkbox">
+        <br>
+        <input type="file">
+    </form>
+        
 </body>
 </html>
